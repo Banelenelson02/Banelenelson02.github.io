@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somatime Wellness and Therapy</title>
+    <link rel="stylesheet" href="somatimestyles.css">
+</head>
+<body>
+    <header>
+        <img src="Somatime logo.jpg" alt="Somatime Wellness and Therapy Logo" class="logo">
+        <h1>Somatime Wellness and Therapy</h1>
+        <p>Holistic Care for Body, Mind, and Skin</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showPage('about')">About</a></li>
+            <li><a href="#" onclick="showPage('services')">Services</a></li>
+            <li><a href="#" onclick="showPage('gallery')">Gallery</a></li>
+            <li><a href="#" onclick="showPage('pricing')">Pricing</a></li>
+            <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Somatime Wellness and Therapy, we redefine holistic well-being by merging the science of therapeutic healing with the art of deep relaxation and skincare rejuvenation.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Sports Massage</li>
+            <li>Somatic Therapy</li>
+            <li>Wellness Treatments</li>
+            <li>Skin Treatments</li>
+        </ul>
+    </section>
+    
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="slideshow-container">
+            <img class="slide" src="wellness treatment.jpg" alt="Wellness Treatment">
+            <img class="slide" src="massage therapy.jpg" alt="Massage Therapy">
+            <img class="slide" src="skin treatment.jpg" alt="Skin Treatment">
+        </div>
+    </section>
+    
+    <section id="pricing">
+        <h2>Pricing & Packages</h2>
+        <p>Contact us for detailed pricing, special offers, and membership benefits.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>📍 Location: 816 Section A, Ekangala, 1021</p>
+        <p>📞 Contact: 060 811 1526 (Thalo)</p>
+        <p>📧 Email: <a href="mailto:somatimewellness@gmail.com">somatimewellness@gmail.com</a></p>
+    </section>
+    
+    <script>
+        function showPage(pageId) {
+            document.querySelectorAll("section").forEach(section => section.style.display = "none");
+            document.getElementById(pageId).style.display = "block";
+        }
+        
+        let slideIndex = 0;
+        function showSlides() {
+            let slides = document.getElementsByClassName("slide");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1; }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 3000);
+        }
+        showSlides();
+    </script>
+</body>
+</html>
