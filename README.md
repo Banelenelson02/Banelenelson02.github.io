@@ -17,7 +17,7 @@ When I’m not coding, I’m probably watching football (Manchester City fan!), 
 
 ### 📫 Get in touch:
 - **Email:** banelenelson02@gmail.com
-- **Phone:** 0600005849
+- **Phone:** 0660205849
 - **Location:** Pretoria, South Africa
 
 ---
