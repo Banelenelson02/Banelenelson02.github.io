@@ -1,7 +1,7 @@
 # Banelenelson02.github.io
 # Hi there 👋, I'm Banele Nelson Ntuli
 
-I'm a Computer Science student based in Pretoria. I love building websites and real-world projects using:
+I'm a fullstack Web Developer based in Pretoria. I love building websites and real-world projects using:
 
 - 💻 HTML, CSS, JavaScript
 - ☕ Java
@@ -13,7 +13,7 @@ When I’m not coding, I’m probably watching football (Manchester City fan!), 
 ### 🔨 Projects I'm working on:
 - A personal portfolio website
 - A SPAR-like eCommerce front-end
-- Mini Java programs and database apps
+
 
 ### 📫 Get in touch:
 - **Email:** banelenelson02@gmail.com
